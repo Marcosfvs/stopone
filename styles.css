@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'open sans', sans-serif;
+}
+
+
+.information-collum {
+    background-color: black;
+    padding: 40px;
+    color: white;
+    text-align: center;
+}
+
+.information-collum img {
+    width: 300px;
+    height: 300px;
+    border: 1px solid green;
+    border-radius: 50%;
+    margin-bottom: 18px;
+}
+
+.line-bottom{
+    border-bottom: 1px solid green;
+    padding-bottom: 18px;
+}
+
+.information-collum h3 {
+    text-align: left;
+    margin-top: 20px;
+}
+.information-collum ul {
+    list-style-type: none;
+}
+
+.information-collum li {
+    text-align: justify;
+    margin: 10px 0;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+.contacts i {
+    color: green;
+    margin-right: 10px;
+}
+
+.education {
+    margin-top: 32px ;
+}
+.education p {
+    color: green;
+}
+
+.languages .percent {
+    height: 6px;
+    background-color: green;
+    margin-top: 5px;
+    width: 205px;
+}
+
+.languages .percent div{
+    height: 6px;
+   background-color:  #32cd32;
+}
+
+.languages .percent .english {
+    width: 25%;
+    background-color:#32cd32;
+}
+
+.languages .percent .spanish {
+    width: 45%;
+    background-color:#32cd32;
+}
+
+.languages .percent .french {
+    width: 35%;
+    background-color:#32cd32;
+}
+
+.expirience-collum {
+    background-color: white;
+    padding: 40px;
+    color: black;
+    text-align: justify;
+}
+
+.expirience-collum section {
+    margin-bottom: 30px;
+}
+.expirience-collum h2{
+    margin-top: 15px;
+}
+
+.expirience-collum h3{
+    text-align: left;
+}
+
+.expirience-collum .expiriences {
+    margin-bottom: 14px;
+}
+
+
+
+
+
+
